@@ -2,7 +2,7 @@
 Functional test module.
 """
 
-from your_package import main as package_main
+from hackberry import main as package_main
 
 
 def test_assert(name, actual, expected):
@@ -13,8 +13,9 @@ def test_assert(name, actual, expected):
         print("Fail")
         raise AssertionError(f"{actual} != {expected}")
 
+
 def test_dummy():
-    test_assert("main function returns \"OK\"", package_main.main(), "OK")
+    test_assert('main function returns "OK"', package_main.main(), "OK")
 
 
 def main():

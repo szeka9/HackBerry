@@ -1,9 +1,8 @@
 # Increment the version by updating PACKAGE_VERSION,
-# then run "make publish" to update package.json and
-# the version string in src/your_package/config.py
+# then run "make publish" to update package.json.
 
 PACKAGE_VERSION := v0.1.0
-PKG := your_package
+PKG := hackberry
 
 DEVICE ?= u0
 

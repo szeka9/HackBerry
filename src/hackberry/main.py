@@ -7,7 +7,6 @@ def main():
     """
     Main function, used as an example.
     """
-    print('This is a template, replace "your_package" with your package name.')
     return "OK"
 
 
