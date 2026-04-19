@@ -9,7 +9,7 @@ which jq 1>/dev/null || { echo "jq dependency is missing"; exit 1; }
 find "$dist_dir" -type f -printf '%P\n' | jq -Rn --arg version "${version}" '[inputs] |
     {
         version: $version,
-        urls: map([., ("github:szeka9/hackberry/dist/" + .)]),
+        urls: map([., ("github:szeka9/HackBerry/dist/" + .)]),
         deps: []
     }
 ' > $package_json

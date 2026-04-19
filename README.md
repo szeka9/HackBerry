@@ -1,4 +1,4 @@
-# micropython-template
+# HackBerry
 Portable keyboard and macropad based on MicroPython.
 
 This project is under development.
