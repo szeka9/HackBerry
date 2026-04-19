@@ -18,4 +18,4 @@ def delete_path(path):
                 pass
 
 
-delete_path("/lib/your_package")
+delete_path("/lib/hackberry")

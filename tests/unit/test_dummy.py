@@ -10,7 +10,7 @@ class DummyTest(unittest.TestCase):
 
     @classmethod
     def setUpClass(cls):
-        cls.main_module = load_module("your_package/main.py")
+        cls.main_module = load_module("hackberry/main.py")
 
     def setUp(self):
         pass

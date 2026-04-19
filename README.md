@@ -1,15 +1,7 @@
 # micropython-template
-Template repository for MicroPython-based projects.
+Portable keyboard and macropad based on MicroPython.
 
-Use this template to easily create projects that rely on MicroPython. With the help of this template\
-you can easily build, deploy and test your application with the included MicroPython toolchain.
-
-This project relies on GNU Make, implementing various automations in the included Makefile to cross-compile,\
-and upload your application to a device with mpremote. Check the below steps for more details.
-
-Additionally, you can host your package in the repository itself with the help of ```package.json```, allowing\
-you to install the package from GitHub with the mip package manager. Use the ```publish``` rule to cross-compile\
-and host modules under the ```dist``` directory.
+This project is under development.
 
 # Prerequisites
 
@@ -20,7 +12,7 @@ source venv/bin/activate
 python3 -m pip install -r requirements.txt
 ```
 
-# Build and run example application
+# Development
 
 ## Run on unix port
 
